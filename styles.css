@@ -1,0 +1,54 @@
+.texto-maior {
+    font-size: 30px;
+    color: #000000;
+    text-align: right;
+}
+
+.texto-menor {
+    font-size: 18px;
+    color: #080808;
+    text-align: right;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Removido text-align: right daqui */
+}
+
+/* MENU VERTICAL À DIREITA */
+.menu {
+    background-color: #007bff;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 180px;
+    z-index: 1000;
+    text-align: right;
+    box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 20px 0;
+    display: block;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.2s;
+    display: block;
+}
+
+.menu a:hover {
+    color: #ffeb3b;
+}
